@@ -65,8 +65,8 @@ public class Calendar {
     }
 
     public static void main(String[] args) {
-        int month = Terminal.readInt("Month")
-        int year = Terminal.readInt("Year")
+        int month = Terminal.readInt("Month");
+        int year = Terminal.readInt("Year");
         printCalendar(month, year);
 
     }
